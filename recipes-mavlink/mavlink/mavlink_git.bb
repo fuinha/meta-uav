@@ -2,11 +2,11 @@ SUMMARY = "MAVLink micro air vehicle marshalling / communication library"
 HOMEPAGE = "http://qgroundcontrol.org/mavlink/"
 
 LICENSE = "LGPLv3"
-LIC_FILES_CHKSUM = "file://COPYING;md5=e6a600fd5e1d9cbde2d983680233ad02"
+LIC_FILES_CHKSUM = "file://COPYING;md5=54ad3cbe91bebcf6b1823970ff1fb97f"
 
 PV = "1.0.9"
-SRCREV = "5a30dbf2546a131fd1529efeaead825e332f70cc"
-SRC_URI = "git://github.com/mavlink/mavlink.git \
+SRCREV = "27f2a20333e1d20e6834cc279045bd700bbfb2b2"
+SRC_URI = "gitsm://github.com/mavlink/mavlink.git \
           "
 
 S = "${WORKDIR}/git"
@@ -17,4 +17,5 @@ PARALLEL_MAKE = ""
 OECMAKE_SOURCEPATH = "${S}"
 OECMAKE_BUILDPATH = "${S}/build-${TARGET_ARCH}-${PV}"
 
-FILES_${PN} += "${datadir}/pyshared"
+
+FILES_${PN} += "${libdir}/*"
