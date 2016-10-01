@@ -20,4 +20,5 @@ RDEPENDS_${PN} = "\
                 python-six \
                 python-monotonic \
                 pymavlink \
+		dronekit-sitl \
                 "
