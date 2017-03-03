@@ -2,11 +2,10 @@ SUMMARY = "This is a python implementation of the MAVLink protocol. "
 HOMEPAGE = "http://qgroundcontrol.org/mavlink/"
 
 LICENSE = "LGPLv3"
-LIC_FILES_CHKSUM = "file://README.txt;md5=2fc3900b33c4131645987a81bfe6a55f"
+LIC_FILES_CHKSUM = "file://README.txt;md5=a350cb83bd19d7a1d9a3096d58cd5220"
 
-SRC_URI = "https://pypi.python.org/packages/ae/d3/2bcc417b127e7230b67cb65ecb7b3865af8d7ea2f7f458c203facbe961eb/${PN}-${PV}.tar.gz"
-SRC_URI[md5sum] = "1883525b93a5014d1aeda31e7b64ee20"
-SRC_URI[sha256sum] = "32c41a144f64c30c37d94e4e5d1916e611f39019f7b44c45c47bfdb91702c000"
+SRC_URI = "https://pypi.python.org/packages/bd/8b/0c139436eae7dd2ed5a1feeee9dd384da4e432e9971485eca8fc316ddf86/${PN}-${PV}.zip"
+SRC_URI[md5sum] = "5c96a9d4ff5bf8f6e5d4ab9b0533fc70"
 
 S = "${WORKDIR}/${PN}-${PV}"
 
